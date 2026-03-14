@@ -173,3 +173,5 @@ elements.civ_human = {
 
     }
 };
+// replace default humans with smart humans
+elements.human.tick = elements.civ_human.tick;
